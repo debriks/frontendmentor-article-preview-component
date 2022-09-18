@@ -36,11 +36,6 @@ p {
   color: var(--veryDarkGrayishBlue);
 }
 
-.footer__text span {
-  font-size: 13px;
-  color: var(--grayishBlue);
-}
-
 /* Card */
 .card {
   background: var(--white);
@@ -96,6 +91,11 @@ p {
 .footer__text .text__heading {
   font-size: 14px;
   font-weight: 700;
+}
+
+.footer__text span {
+  font-size: 13px;
+  color: var(--grayishBlue);
 }
 
 .footer__icon {
@@ -181,12 +181,17 @@ p {
     font-size: 1.25rem;
   }
 
+  .card__footer {
+    margin-left: 5px;
+    transform: translateY(-10%);
+  }
+
   /* Social Icons */
   .social__icons {
     justify-content: center;
     border-radius: 10px;
-    bottom: 100px;
-    left: 555px;
+    bottom: 90px;
+    left: 556px;
     width: 248px;
     height: 65px;
   }
