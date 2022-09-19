@@ -42,7 +42,7 @@ p {
   border-radius: 10px;
   box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.5);
   position: relative;
-  width: 327px;
+  max-width: 327px;
 }
 
 .card .card__img {
